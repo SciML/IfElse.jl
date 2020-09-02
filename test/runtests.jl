@@ -1,6 +1,5 @@
 using IfElse
 using Test
 
-@testset "IfElse.jl" begin
-    # Write your tests here.
-end
+x = 2
+@test IfElse.ifelse(x>0,1,-1) == Core.ifelse(x>0,1,-1)

@@ -1,5 +1,5 @@
 module IfElse
 
-# Write your package code here.
+ifelse(args...) = Core.ifelse(args...)
 
 end
