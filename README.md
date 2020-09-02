@@ -1,5 +1,7 @@
 # IfElse.jl
 
+[![Build Status](https://travis-ci.com/SciML/IfElse.jl.svg?branch=master)](https://travis-ci.com/SciML/IfElse.jl)
+
 Sometimes, it's good to have a function form of a conditional. Julia's Base
 defines `ifelse` for this, but... psyche, it's not defined in Base but in Core!
 While this rarely matters, if you're trying to define a new dispatch for `Core.ifelse`
